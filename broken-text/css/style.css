@@ -1,0 +1,361 @@
+body {
+  background: #190a0f;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; }
+
+#ui {
+  transform: rotateZ(-4deg); }
+  #ui .text {
+    position: absolute;
+    font-size: 8rem;
+    color: #fff;
+    line-height: 8rem;
+    font-family: 'Anton', sans-serif;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+    letter-spacing: 1rem;
+    overflow: hidden; }
+    #ui .text:nth-child(1) {
+      color: #c928b3;
+      clip-path: polygon(-2% -2%, 8% -28%, 9% 54%, -1% 53%);
+      filter: blur(0px); }
+      #ui .text:nth-child(1) .text_inner1 {
+        animation: vertical 1248ms 82ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(1) .text_inner2 {
+        animation: horizontal 960ms 82ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(2) {
+      color: #fc28a9;
+      clip-path: polygon(4% -4%, 12% -16%, 13% 51%, 4% 70%);
+      filter: blur(3px); }
+      #ui .text:nth-child(2) .text_inner1 {
+        animation: vertical 785ms 60ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(2) .text_inner2 {
+        animation: horizontal 1106ms 5ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(3) {
+      color: #9928eb;
+      clip-path: polygon(9% -3%, 16% -24%, 20% 53%, 8% 66%);
+      filter: blur(4px); }
+      #ui .text:nth-child(3) .text_inner1 {
+        animation: vertical 982ms 37ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(3) .text_inner2 {
+        animation: horizontal 1553ms 24ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(4) {
+      color: #8228e3;
+      clip-path: polygon(14% -4%, 25% -19%, 25% 54%, 14% 56%);
+      filter: blur(0px); }
+      #ui .text:nth-child(4) .text_inner1 {
+        animation: vertical 1646ms 72ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(4) .text_inner2 {
+        animation: horizontal 1634ms 87ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(5) {
+      color: #88288c;
+      clip-path: polygon(18% -4%, 29% -8%, 28% 52%, 19% 58%);
+      filter: blur(3px); }
+      #ui .text:nth-child(5) .text_inner1 {
+        animation: vertical 737ms 71ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(5) .text_inner2 {
+        animation: horizontal 1383ms 86ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(6) {
+      color: #4828a1;
+      clip-path: polygon(23% -2%, 34% -30%, 31% 54%, 23% 79%);
+      filter: blur(-9px); }
+      #ui .text:nth-child(6) .text_inner1 {
+        animation: vertical 1481ms 8ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(6) .text_inner2 {
+        animation: horizontal 999ms 64ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(7) {
+      color: #4d2898;
+      clip-path: polygon(28% -4%, 39% -13%, 39% 52%, 28% 65%);
+      filter: blur(-6px); }
+      #ui .text:nth-child(7) .text_inner1 {
+        animation: vertical 1078ms 69ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(7) .text_inner2 {
+        animation: horizontal 1594ms 2ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(8) {
+      color: #5c288b;
+      clip-path: polygon(33% -1%, 44% -11%, 44% 55%, 34% 68%);
+      filter: blur(-4px); }
+      #ui .text:nth-child(8) .text_inner1 {
+        animation: vertical 1046ms 54ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(8) .text_inner2 {
+        animation: horizontal 1587ms 74ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(9) {
+      color: #e728a1;
+      clip-path: polygon(39% -5%, 47% -24%, 48% 55%, 38% 60%);
+      filter: blur(-9px); }
+      #ui .text:nth-child(9) .text_inner1 {
+        animation: vertical 918ms 71ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(9) .text_inner2 {
+        animation: horizontal 1452ms 94ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(10) {
+      color: #462895;
+      clip-path: polygon(44% -5%, 54% -11%, 55% 54%, 43% 76%);
+      filter: blur(9px); }
+      #ui .text:nth-child(10) .text_inner1 {
+        animation: vertical 851ms 90ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(10) .text_inner2 {
+        animation: horizontal 991ms 19ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(11) {
+      color: #ab2861;
+      clip-path: polygon(49% -3%, 56% -2%, 56% 53%, 49% 65%);
+      filter: blur(8px); }
+      #ui .text:nth-child(11) .text_inner1 {
+        animation: vertical 1642ms 22ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(11) .text_inner2 {
+        animation: horizontal 1129ms 83ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(12) {
+      color: #5828e8;
+      clip-path: polygon(53% -5%, 64% -1%, 61% 54%, 54% 65%);
+      filter: blur(-4px); }
+      #ui .text:nth-child(12) .text_inner1 {
+        animation: vertical 1172ms 39ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(12) .text_inner2 {
+        animation: horizontal 916ms 10ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(13) {
+      color: #e42883;
+      clip-path: polygon(59% -5%, 69% -23%, 68% 52%, 59% 66%);
+      filter: blur(0px); }
+      #ui .text:nth-child(13) .text_inner1 {
+        animation: vertical 721ms 33ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(13) .text_inner2 {
+        animation: horizontal 1554ms 39ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(14) {
+      color: #d3286c;
+      clip-path: polygon(64% -1%, 72% -16%, 75% 55%, 64% 69%);
+      filter: blur(7px); }
+      #ui .text:nth-child(14) .text_inner1 {
+        animation: vertical 784ms 24ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(14) .text_inner2 {
+        animation: horizontal 1419ms 33ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(15) {
+      color: #8728cd;
+      clip-path: polygon(68% -4%, 76% -25%, 76% 55%, 68% 52%);
+      filter: blur(10px); }
+      #ui .text:nth-child(15) .text_inner1 {
+        animation: vertical 712ms 9ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(15) .text_inner2 {
+        animation: horizontal 1637ms 38ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(16) {
+      color: #902860;
+      clip-path: polygon(73% -5%, 85% -27%, 85% 54%, 74% 71%);
+      filter: blur(-4px); }
+      #ui .text:nth-child(16) .text_inner1 {
+        animation: vertical 1526ms 77ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(16) .text_inner2 {
+        animation: horizontal 1600ms 13ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(17) {
+      color: #522853;
+      clip-path: polygon(78% -5%, 86% -27%, 88% 53%, 79% 52%);
+      filter: blur(-5px); }
+      #ui .text:nth-child(17) .text_inner1 {
+        animation: vertical 1342ms 37ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(17) .text_inner2 {
+        animation: horizontal 1090ms 5ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(18) {
+      color: #75284a;
+      clip-path: polygon(83% -1%, 92% -16%, 95% 53%, 84% 80%);
+      filter: blur(-7px); }
+      #ui .text:nth-child(18) .text_inner1 {
+        animation: vertical 1592ms 72ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(18) .text_inner2 {
+        animation: horizontal 1268ms 82ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(19) {
+      color: #742857;
+      clip-path: polygon(89% -2%, 99% -16%, 100% 52%, 89% 64%);
+      filter: blur(-6px); }
+      #ui .text:nth-child(19) .text_inner1 {
+        animation: vertical 763ms 79ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(19) .text_inner2 {
+        animation: horizontal 1229ms 22ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(20) {
+      color: #9e2866;
+      clip-path: polygon(94% -3%, 102% -10%, 104% 51%, 93% 76%);
+      filter: blur(1px); }
+      #ui .text:nth-child(20) .text_inner1 {
+        animation: vertical 1436ms 46ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(20) .text_inner2 {
+        animation: horizontal 1524ms 17ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(21) {
+      color: #c82871;
+      clip-path: polygon(-2% 47%, 7% 27%, 8% 102%, -1% 127%);
+      filter: blur(0px); }
+      #ui .text:nth-child(21) .text_inner1 {
+        animation: vertical 769ms 79ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(21) .text_inner2 {
+        animation: horizontal 972ms 87ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(22) {
+      color: #902881;
+      clip-path: polygon(3% 48%, 15% 27%, 11% 104%, 3% 120%);
+      filter: blur(7px); }
+      #ui .text:nth-child(22) .text_inner1 {
+        animation: vertical 887ms 24ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(22) .text_inner2 {
+        animation: horizontal 1505ms 13ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(23) {
+      color: #6f2880;
+      clip-path: polygon(9% 47%, 19% 47%, 19% 105%, 8% 106%);
+      filter: blur(-8px); }
+      #ui .text:nth-child(23) .text_inner1 {
+        animation: vertical 1079ms 20ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(23) .text_inner2 {
+        animation: horizontal 1438ms 84ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(24) {
+      color: #d528a8;
+      clip-path: polygon(13% 48%, 21% 41%, 24% 104%, 13% 102%);
+      filter: blur(2px); }
+      #ui .text:nth-child(24) .text_inner1 {
+        animation: vertical 704ms 95ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(24) .text_inner2 {
+        animation: horizontal 979ms 12ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(25) {
+      color: #ad28c3;
+      clip-path: polygon(18% 49%, 27% 32%, 29% 102%, 19% 126%);
+      filter: blur(-5px); }
+      #ui .text:nth-child(25) .text_inner1 {
+        animation: vertical 1458ms 34ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(25) .text_inner2 {
+        animation: horizontal 1579ms 55ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(26) {
+      color: #3e28f8;
+      clip-path: polygon(23% 48%, 35% 23%, 31% 105%, 23% 115%);
+      filter: blur(7px); }
+      #ui .text:nth-child(26) .text_inner1 {
+        animation: vertical 1262ms 52ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(26) .text_inner2 {
+        animation: horizontal 1693ms 4ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(27) {
+      color: #b828d4;
+      clip-path: polygon(28% 45%, 39% 33%, 36% 104%, 29% 101%);
+      filter: blur(9px); }
+      #ui .text:nth-child(27) .text_inner1 {
+        animation: vertical 1186ms 85ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(27) .text_inner2 {
+        animation: horizontal 1407ms 50ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(28) {
+      color: #512860;
+      clip-path: polygon(34% 49%, 43% 41%, 42% 104%, 33% 116%);
+      filter: blur(4px); }
+      #ui .text:nth-child(28) .text_inner1 {
+        animation: vertical 1599ms 46ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(28) .text_inner2 {
+        animation: horizontal 1512ms 11ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(29) {
+      color: #492890;
+      clip-path: polygon(38% 46%, 46% 27%, 47% 105%, 38% 103%);
+      filter: blur(-2px); }
+      #ui .text:nth-child(29) .text_inner1 {
+        animation: vertical 988ms 68ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(29) .text_inner2 {
+        animation: horizontal 1601ms 96ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(30) {
+      color: #ac283f;
+      clip-path: polygon(44% 49%, 51% 36%, 55% 104%, 44% 125%);
+      filter: blur(7px); }
+      #ui .text:nth-child(30) .text_inner1 {
+        animation: vertical 1624ms 73ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(30) .text_inner2 {
+        animation: horizontal 1219ms 19ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(31) {
+      color: #d02842;
+      clip-path: polygon(49% 45%, 60% 27%, 58% 105%, 49% 109%);
+      filter: blur(7px); }
+      #ui .text:nth-child(31) .text_inner1 {
+        animation: vertical 1099ms 21ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(31) .text_inner2 {
+        animation: horizontal 1532ms 70ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(32) {
+      color: #b62847;
+      clip-path: polygon(54% 46%, 62% 35%, 64% 103%, 54% 105%);
+      filter: blur(-8px); }
+      #ui .text:nth-child(32) .text_inner1 {
+        animation: vertical 1249ms 79ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(32) .text_inner2 {
+        animation: horizontal 812ms 76ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(33) {
+      color: #452842;
+      clip-path: polygon(58% 45%, 66% 40%, 69% 103%, 59% 129%);
+      filter: blur(4px); }
+      #ui .text:nth-child(33) .text_inner1 {
+        animation: vertical 1097ms 8ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(33) .text_inner2 {
+        animation: horizontal 1461ms 82ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(34) {
+      color: #bd28cd;
+      clip-path: polygon(64% 46%, 72% 34%, 71% 104%, 64% 108%);
+      filter: blur(1px); }
+      #ui .text:nth-child(34) .text_inner1 {
+        animation: vertical 1051ms 29ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(34) .text_inner2 {
+        animation: horizontal 1095ms 59ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(35) {
+      color: #5828f4;
+      clip-path: polygon(68% 46%, 79% 45%, 79% 104%, 68% 125%);
+      filter: blur(10px); }
+      #ui .text:nth-child(35) .text_inner1 {
+        animation: vertical 1694ms 76ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(35) .text_inner2 {
+        animation: horizontal 1146ms 90ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(36) {
+      color: #8e285e;
+      clip-path: polygon(73% 47%, 84% 29%, 84% 103%, 74% 120%);
+      filter: blur(0px); }
+      #ui .text:nth-child(36) .text_inner1 {
+        animation: vertical 722ms 98ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(36) .text_inner2 {
+        animation: horizontal 1272ms 13ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(37) {
+      color: #9a28d8;
+      clip-path: polygon(79% 48%, 86% 47%, 86% 102%, 78% 101%);
+      filter: blur(10px); }
+      #ui .text:nth-child(37) .text_inner1 {
+        animation: vertical 1676ms 33ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(37) .text_inner2 {
+        animation: horizontal 1524ms 79ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(38) {
+      color: #a628de;
+      clip-path: polygon(83% 45%, 92% 27%, 95% 102%, 84% 127%);
+      filter: blur(3px); }
+      #ui .text:nth-child(38) .text_inner1 {
+        animation: vertical 1468ms 11ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(38) .text_inner2 {
+        animation: horizontal 1628ms 36ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(39) {
+      color: #9c28b2;
+      clip-path: polygon(88% 48%, 96% 20%, 99% 105%, 88% 101%);
+      filter: blur(-8px); }
+      #ui .text:nth-child(39) .text_inner1 {
+        animation: vertical 979ms 17ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(39) .text_inner2 {
+        animation: horizontal 1329ms 29ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(40) {
+      color: #9a2883;
+      clip-path: polygon(93% 45%, 105% 48%, 104% 105%, 94% 113%);
+      filter: blur(-1px); }
+      #ui .text:nth-child(40) .text_inner1 {
+        animation: vertical 818ms 83ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(40) .text_inner2 {
+        animation: horizontal 1467ms 76ms ease-in-out infinite alternate; }
+    #ui .text:nth-child(41) {
+      color: #7b2883;
+      clip-path: polygon(-1% 97%, 6% 89%, 10% 154%, -2% 160%);
+      filter: blur(-6px); }
+      #ui .text:nth-child(41) .text_inner1 {
+        animation: vertical 1068ms 68ms ease-in-out infinite alternate; }
+      #ui .text:nth-child(41) .text_inner2 {
+        animation: horizontal 764ms 76ms ease-in-out infinite alternate; }
+
+@keyframes horizontal {
+  0% {
+    transform: translateX(6px); }
+  100% {
+    transform: translateX(-6px); } }
+
+@keyframes vertical {
+  0% {
+    transform: translateY(3px); }
+  100% {
+    transform: translateY(-3px); } }
