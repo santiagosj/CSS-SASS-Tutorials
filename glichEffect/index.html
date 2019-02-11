@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <link rel="stylesheet" href="css/parallax.css">
+    <title>Glich VHS wolf</title>
+  </head>
+  <body>
+    <div class="content">
+
+      <ul class="scene glitch">
+         <li class="layer " data-depth="0.16"><img src="images\lobo-rojo.png" class="lobo-rojo "/></li>
+         <li class="layer glitch__img" ><img src="images\lobo-rojo.png" class="lobo-rojo "/></li>
+         <li class="layer glitch__img" ><img src="images\lobo-cian.png"class="lobo-cian "/></li>
+         <li class="layer " data-depth="0.08"><img src="images\lobo-cian.png"class="lobo-cian "/></li>
+         <li class="layer glitch__img" ><img src="images\lobo-rojo.png" class="lobo-rojo "/></li>
+         <li class="layer " data-depth="0.04"><img src="images\wolf_on_a_transparent_background__by_prussiaart-dbgfod9.png"class="wolf "/></li>
+         <li class="layer glitch__img" ><img src="images\lobo-cian.png"class="lobo-cian "/></li>
+      </ul>
+
+    </div>
+
+
+    <script type="text/javascript">
+        window.addEventListener('load',iniciar,false);
+        function iniciar(){
+        var scene = document.getElementsByClassName('scene');
+        var parallax = new Parallax(scene[0]);
+         }
+    </script>
+    <script type="text/javascript">
+      setTimeout(() => document.body.classList.add('render'), 60);
+    </script>
+  </body>
+</html>
