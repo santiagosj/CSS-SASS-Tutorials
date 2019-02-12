@@ -25,19 +25,19 @@ body {
   --blend-color-5: #af49498a;
 }
 
-.wolf, .lobo-cian, .lobo-rojo{
+.wolf, .lobo-cian, .lobo-rojo {
   width: 400px;
   position: absolute;
 }
 
 .wolf {
   left:200px;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .lobo-cian {
 left: 200px;
-opacity: 0.5;
+opacity: 0.4;
 }
 
 .lobo-rojo {

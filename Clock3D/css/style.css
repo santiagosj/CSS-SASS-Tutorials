@@ -1,0 +1,13 @@
+:root {
+  --mouse-x:0;
+  --mouse-y:0; }
+
+.time {
+  display: flex;
+  flex-direction: row;
+  transform: translateZ(20px);
+  transform: translateZ(20px) rotateX(calc(var(--mouse-y) * 45deg)) rotateY(calc(var(--mouse-x) * 45deg)); }
+
+* {
+  transform-style: preserve-3d;
+  perspective: 1000px; }

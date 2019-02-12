@@ -1,0 +1,34 @@
+$easing: cubic-bezier(0.5, 0, 0.5, 1);
+$easing-alt: cubic-bezier(0.4, 0, 0.1, 1);
+$color-primary: #0BFDFD;
+
+:root {
+  --mouse-x:0;
+  --mouse-y:0;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  transform: translateZ(20px);
+  transform:
+    translateZ(20px)
+    rotateX(calc(var(--mouse-y) * 45deg))
+    rotateY(calc(var(--mouse-x) * 45deg))
+}
+
+* {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+@mixin collapse($lines) {
+    @each $line in $lines {
+      :nth-child(#{$line}){
+        &:before, &:after{
+          opacity: 0.3;
+          transform: translateZ(-2vmax);
+      }
+    }
+  }
+}
