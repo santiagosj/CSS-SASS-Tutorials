@@ -1,12 +1,12 @@
-let windowW = window.innerWidth;
-let windowH = window.innerHeight;
+// let windowW = window.innerWidth;
+// let windowH = window.innerHeight;
 let isLoaded = false;
 let glitch;
 let imgSrc = 'https://i.imgur.com/AuIi7ZV.jpg';
 
 function setup() {
         background(0);
-        createCanvas(windowW, windowH);
+        createCanvas(640, 640);
         loadImage(imgSrc, function (img) {
                 glitch = new Glitch(img);
                 isLoaded = true;
