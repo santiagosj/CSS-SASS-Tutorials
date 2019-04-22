@@ -10,9 +10,9 @@ jQuery(".titleWrapper h1").each(function(){
 
 	$this = jQuery(this);
 	$this.empty();
-	$.each(characters, function (i, el) {
-		if(el == " "){el = "&nbsp;"};
-    $this.append("<span>" + el + "</span");
+	$.each(characters, function (i, elemento) {
+		if(elemento == " "){elemento = "&nbsp;"};
+    $this.append("<span>" + elemento + "</span");
 	});
 
 });

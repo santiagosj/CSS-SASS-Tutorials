@@ -1,6 +1,6 @@
 //Tutorial interesante de codeMyUi.com en el cual trato con las estructuras de control de sass (@while en este caso) un titulo como si fuese un array iterandolo, para poder manipular cada letra
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
 
 body {
 	background:#fafafa;
@@ -33,10 +33,11 @@ h1{
 	line-height:80px;
 	height:80px;
 	position: relative;
-	font-family: 'Montserrat', sans-serif;
+	top:6px;
+	font-family: 'Special Elite', cursive;
 	text-transform: uppercase;
 	word-space: 4em;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.5em;
 }
 
 h1 span {
@@ -62,7 +63,7 @@ h1.second span{
 }
 
 $num: 1;
-
+//este loop genera que cada letra dentro de un span reciba un numero en el selector nth-of-type(num) para ir asignandole velocidad de delay
 @while $num < 20 {
   h1.first span:nth-of-type(#{$num}){
     transition-delay: 0.02s * $num;
