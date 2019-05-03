@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="parallax.css">
+    <script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+    <title>Parallax</title>
+
+  </head>
+  <body>
+      <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="../index.html">Start</a>
+          <a href="../GlichEffect_1/index.html">Wolf</a>
+          <a href="animaciones.html">Cranes Birds</a>
+          <a href="svg.html">Arte Suave</a>
+          <a href="parallax-2.html">Owl</a>
+          <a href="../GlitchEffect_2/index.html">Glitch</a>
+          <a href="../broken-text/index.html">Broken Text</a>
+          <a href="../swap-h1/index.html">Swap Text</a>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <div id="contenedor-2">
+      <ul class="scene">
+        <li class="layer" data-depth="-0.45"><img src="https://www.andersriggelsen.dk/glblendfunc/presets/death_star.png" class="deathstar"/></li>
+        <li class="layer" data-depth="1.00"><img src="http://i.imgur.com/iy3XaEM.png"class="lord"/></li>
+        <li class="layer" data-depth="-1.00"><img src="http://freepngimages.com/wp-content/uploads/2015/12/star-wars-starfighter-transparent-image.png"id="naves"/></li>
+        <li class="layer" data-depth="0.50"><img src="http://freepngimages.com/wp-content/uploads/2015/12/star-wars-starfighter-transparent-image.png"id="naves1"/></li>
+        <li class="layer" data-depth="-0.20"><img src="http://freepngimages.com/wp-content/uploads/2015/12/star-wars-starfighter-transparent-image.png"id="naves2"/></li>
+        <li class="layer" data-depth="2.00"><img src="http://freepngimages.com/wp-content/uploads/2015/12/star-wars-starfighter-transparent-image.png"id="naves3"/></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript">
+    window.addEventListener('load',iniciar,false);
+    function iniciar(){
+    var scene = document.getElementsByClassName('scene');
+    var parallax = new Parallax(scene[0]);
+    }
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+      
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+</body>
+</html>

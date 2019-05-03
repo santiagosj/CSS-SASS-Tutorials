@@ -27,6 +27,7 @@ function draw() {
 }
 
 class Glitch {
+        //Constructor
         constructor(img) {
                 this.channelLen = 4;
                 this.imgOrigin = img;
@@ -37,7 +38,7 @@ class Glitch {
                 this.shiftRGBs = [];
                 this.scatImgs = [];
                 this.throughFlag = true;
-                this.copyData = new Uint8ClampedArray(this.imgOrigin.pixels);
+                this.copyData = new Uint8ClampedArray(this.imgOrigin.pixels); //Uint8ClampedArray representa un array de elementos no asignados de 8bits
 
                 // flow line
                 for (let i = 0; i < 1; i++) {

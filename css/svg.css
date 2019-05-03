@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.contenedor-2{
+  width: 100%;
+  height: 900px;
+  /*line-height: 666px;*/
+  background-image: url(https://hdwallsource.com/img/2014/6/japanese-background-22096-22652-hd-wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+svg{
+  position: absolute;
+  top:150px;
+  left: 460px;
+}
+.triangulo{
+  stroke-dasharray:3149 3151;
+  stroke-dashoffset:3150;
+  animation:triangulo-linea 6300ms linear 0ms infinite, triangulo_fade 6300ms linear 0ms infinite;
+}
+
+@keyframes triangulo_fade{
+  0%{stroke-opacity:1;}
+  93%{stroke-opacity:1;}
+  100%{stroke-opacity:0;}
+  }
+@keyframes triangulo-linea{
+    0%{stroke-dashoffset: 10000;}
+    20%{stroke-dashoffset: 8000;}
+    40% { stroke-dashoffset:6000;}
+    60%{ stroke-dashoffset:4000;}
+    80%{ stroke-dashoffset:2000;}
+    90%{ stroke-dashoffset:1000;}
+    100%{ stroke-dashoffset:0;}
+  }
+
+
+.jiu {
+  position: relative;
+  top: 150px;
+  left: 429px ;
+  max-width: 400px;
+  opacity: 0.5;
+  animation: jiu 3s linear 3s infinite
+}
+
+@keyframes jiu {
+  0%{opacity: 0}
+  20%{opacity: 0.1}
+  40%{opacity: 0.3}
+  60%{opacity: 0.5}
+  70%{opacity: 0.7}
+  80%{opacity: 0.8}
+  90%{opacity: 0.9}
+  100%{opacity: 1}
+}
+
+span{
+  position: relative;
+  top:-190px;
+  left: 50px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

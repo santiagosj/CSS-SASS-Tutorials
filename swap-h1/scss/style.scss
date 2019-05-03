@@ -1,6 +1,7 @@
 //Tutorial interesante de codeMyUi.com en el cual trato con las estructuras de control de sass (@while en este caso) un titulo como si fuese un array iterandolo, para poder manipular cada letra
 
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
 
 body {
 	background:#fafafa;
@@ -9,9 +10,49 @@ body {
 	height:500px;
 }
 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+		font-family: 'Yantramanav', sans-serif;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+span{
+	position: relative;
+	left: 50px;
+	top:50px;
+}
+
 .titleWrapper{
 	position:absolute;
-	top:0;
+	top:100px;
 	left:0;
 	right:0;
 	bottom:0;
@@ -23,17 +64,15 @@ body {
 	text-align:center;
 }
 
-
-
 h1{
 	color:#292929;
 	font-size: 80px;
 	margin:0;
 	padding:0;
 	line-height:80px;
-	height:80px;
+	height:85px;
 	position: relative;
-	top:6px;
+	top: -33px;
 	font-family: 'Special Elite', cursive;
 	text-transform: uppercase;
 	word-space: 4em;
@@ -61,6 +100,8 @@ h1.second span{
 	position:relative;
 	z-index:1;
 }
+
+
 
 $num: 1;
 //este loop genera que cada letra dentro de un span reciba un numero en el selector nth-of-type(num) para ir asignandole velocidad de delay

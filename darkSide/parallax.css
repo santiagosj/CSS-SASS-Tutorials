@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+
+body{
+  margin: 0;
+  overflow: hidden;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+span{
+position: relative;
+left: 50px;
+top:50px;
+color: white;
+z-index: 1;
+}
+
+#contenedor-2{
+background:url(https://thenypost.files.wordpress.com/2017/10/171025-universe-should-not-exist-alt-index.jpg?quality=90&strip=all);
+max-height: 100%;
+height: 530px;
+position: relative;
+margin: 0 auto;
+padding: 5%;
+overflow: hidden;
+background-size: cover;
+bottom: 40px;
+}
+#contenedor-2 .sence img{
+display: block;
+width: 100%;
+}
+
+/*#contenedor-2 .layer:nth-child(1){
+width: 250px;
+}
+
+#contenedor-2 .layer:nth-child(2){
+width: 100px;
+}*/
+.lord{
+  position: relative;
+  bottom: 40px;
+  left:400px;
+}
+.deathstar {
+  position: relative;
+  top: 10px;
+  left: 200px;
+}
+#naves{
+  position: relative;
+  width: 50px;
+  left: 90px;
+  top: 250px;
+}
+#naves1{
+  position: relative;
+  width: 65px;
+  left: 115px;
+  top: 210px;
+}
+#naves2{
+  position: relative;
+  width: 75px;
+  left: 125px;
+  top: 260px;
+  transform: rotate(30deg);
+}
+#naves3{
+  position: relative;
+  width: 110px;
+  left: 145px;
+  top: 300px;
+  transform: rotate(45deg);
+}

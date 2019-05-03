@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+/*menú*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+		font-family: 'Yantramanav', sans-serif;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+span{
+	position: relative;
+	left: 50px;
+	top:50px;
+}
+/*fin menú*/
+
+.intro{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background-image: url(https://images.unsplash.com/photo-1508830524289-0adcbe822b40?auto=format&fit=crop&w=711&q=80);
+	display: table;
+	top:0;
+	background-size: cover;
+}
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 28%;
+}
+.content h1 {
+	font-family: 'Yantramanav', sans-serif;
+	font-size:600%;
+	font-weight:100;
+	color: #E1EFE9;
+	line-height: 70%;
+}
+.btn{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 135%;
+	font-weight: 400;
+	color: #CBDFD6;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 2px solid #CBDFD6;
+	border-radius: 9px;
+	padding: 10px 20px;
+	transition: all 0.5s;
+}
+.btn:hover{
+	color: #316644;
+	background-color: #CBDFD6;
+	border: solid #CBDFD6 2px;
+}
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+  .content{
+		padding-bottom: 30%;
+	}
+	.content h1 {
+		font-size: 450%;
+	}
+	.btn{
+		font-size: 110%;
+		padding: 9px 17px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.content{
+		padding-bottom: 40%;
+	}
+	.content h1 {
+		font-size: 300%;
+	}
+	.btn{
+		font-size: 110%;
+		padding: 9px 17px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.content{
+		padding-bottom: 50%;
+	}
+	.content h1 {
+		font-size: 300%;
+	}
+	.btn{
+		font-size: 110%;
+		padding: 6px 14px;
+	}
+}
+/*Desarrollo*/
+.main .text p{
+	padding: 30px;
+	margin: 5% auto;
+	font-family: 'Montserrat';
+	text-indent: 30px;
+}
+.main h1{
+	font-family: 'Yantramanav', sans-serif;
+font-size: 4em;
+}
+.main h1, h2{
+	font-family: 'Yantramanav', sans-serif;
+	text-align: center;
+}

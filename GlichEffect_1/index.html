@@ -7,6 +7,19 @@
     <title>Glitch VHS wolf</title>
   </head>
   <body>
+      <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="../index.html">Start</a>
+          <a href="../animaciones.html">Cranes Birds</a>
+          <a href="../svg.html">Arte Suave</a>
+          <a href="../parallax-2.html">Owl</a>
+          <a href="../GlitchEffect_2/index.html">Glitch</a>
+          <a href="../broken-text/index.html">Broken Text</a>
+          <a href="../darkSide/parallax.html">DarkSide</a>
+          <a href="../swap-h1/index.html">Swap Text</a>
+        </div>
+      
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     <div class="content">
 
       <ul class="scene glitch">
@@ -32,5 +45,15 @@
     <script type="text/javascript">
       setTimeout(() => document.body.classList.add('render'), 60);
     </script>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+      
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
   </body>
 </html>
